@@ -1,0 +1,22 @@
+package com.hlv.quanlisach.dtos.theloai;
+
+
+import com.hlv.quanlisach.entities.Sach;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class TheLoaiDto {
+
+    private String tenTheLoai;
+
+    private List<String> listIdSach =  new ArrayList<>();
+}
